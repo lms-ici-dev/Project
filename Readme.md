@@ -10,4 +10,4 @@ Progress yang ada pada repository :
 
 Status project yang sedang dikerjakan : ditunda
 
-ZIP file mengenai design akan menyusul 
+Design dari prototyping ATS Transretail, dapat dilihat pada file : figma_design.zip
