@@ -6,8 +6,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 <head>
     <meta charset="utf-8">
-    <title>Welcome to CodeIgniter</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <style type="text/css">
         p.header {
             font-size: 18px;
@@ -15,7 +15,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
             line-height: 32px;
             color: black;
             position: absolute;
+            font-family: 'Roboto';
         }
+
 
         #container {
             margin: 10px;

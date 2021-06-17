@@ -6,7 +6,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 <head>
     <meta charset="utf-8">
-    <title>Welcome to CodeIgniter</title>
 
     <style type="text/css">
         p.header {
@@ -15,6 +14,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             line-height: 32px;
             color: black;
             position: absolute;
+            font-family: 'Roboto';
         }
 
         .footer {
@@ -25,13 +25,15 @@ defined('BASEPATH') or exit('No direct script access allowed');
             width: 100%;
             background-color: #4f4f4f;
             color: whitesmoke;
+            font-family: 'Roboto';
         }
 
         .contact {
             font-size: 15px;
             position: absolute;
             color: white;
-            margin-top: 10px
+            margin-top: 10px;
+            font-family: 'Roboto';
         }
 
         .info {
@@ -39,7 +41,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
             font-weight: bold;
             position: absolute;
             color: white;
-            margin-top: 10px
+            margin-top: 10px;
+            font-family: 'Roboto';
         }
     </style>
 </head>
