@@ -21,6 +21,11 @@ class Welcome extends CI_Controller
 	 */
 	public function index()
 	{
+		$this->load->view('home');
+		$this->load->view('picture');
+		$this->load->view('profil');
+		$this->load->view('job');
+		$this->load->view('facility');
 		$this->load->view('footer');
 	}
 }

@@ -9,20 +9,28 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <style type="text/css">
-        p.header {
-            font-size: 18px;
-            font-weight: bold;
-            line-height: 32px;
-            color: black;
-            position: absolute;
-            font-family: 'Roboto';
+        .navbar {
+            overflow: hidden;
+            background-color: white;
+            position: fixed;
+            top: 0;
+            width: 100%;
         }
 
+        /* Links inside the navbar */
+        .navbar a {
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 5rem;
+            color: black;
+            position: relative;
+            font-family: 'Roboto';
+            top: 0.2rem;
+        }
 
-        #container {
-            margin: 10px;
-            border: 1px solid #D0D0D0;
-            box-shadow: 0 0 8px #D0D0D0;
+        /* Change background on mouse-over */
+        .navbar a:hover {
+            color: #ddd;
         }
     </style>
 </head>
@@ -30,20 +38,18 @@ defined('BASEPATH') or exit('No direct script access allowed');
 <body>
 
     <div>
-        <div>
+        <div class="navbar">
             <?php
-            echo "<img src='./././assets/TransRetail Biru.png' alt='photo of me' style='width: 10.6445em; height: 1.2795em; position: absolute; margin-left: 150px; margin-top: 25px'/>";
+            echo "<img src='./././assets/TransRetail Biru.png' alt='photo of me' style='width: 10.6445em; height: 1.2795em; position: relative; left: 150px; top: 0.4rem'/>";
             ?>
 
-            <p class="header" style="padding: 0 0 0 900px;">Home</p>
-            <p class="header" style="padding: 0 0 0 1025px;">Jobs</p>
-            <p class="header" style="padding: 0 0 0 1140px;">Contact Us</p>
-            <p class="header" style="padding: 0 0 0 1300px;">Sign In</p>
+            <a style="left: 40rem;">Home</a>
+            <a style="left: 45rem;">Jobs</a>
+            <a style="left: 50rem;">Contact Us</a>
+            <a style="left: 55rem;">Sign In</a>
         </div>
 
-        <!-- <p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p> -->
     </div>
-
 </body>
 
 </html>
